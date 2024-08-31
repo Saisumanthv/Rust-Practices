@@ -37,4 +37,74 @@ fn main() {
     // println!("{}", array2[0]);
     // array2[0] = 9;
     // println!("{}", array2[0]);
+
+    // vectors..
+    // let mut nums = vec![1,2,3];
+    // nums.push(4);
+    // println!("{:?}", nums);
+    // nums.pop();
+    // println!("{:?}", nums);
+
+    // let mut vec = Vec::new();   // vec![] calls this constructor function..
+    // vec.push("Test");
+    // vec.push("String");
+    // println!("{:?}", vec);
+    // println!("length of vec: {}", vec.len());
+    // vec[1] = "Vector";
+    // vec.extend(["int", "Stringg"]);
+    // println!("{:?}", vec);
+
+    // // vector with predefined capacity
+    // // method -1 
+    // let vec = vec![1;5];
+    // println!("{:?}", vec);
+
+    // // // method -2 
+    // let mut vect = Vec::<i32>::with_capacity(5);
+    // println!("{:?}", vect.capacity());
+    // vect.resize(5,4);
+    // println!("{:?}", vect);
+
+    // // vector from range..
+    // let vec:Vec<i32> = (0..5).collect();
+    // println!("{:?}", vec);
+
+    // // Slices..
+    // let vec:Vec<i32> = (0..5).collect();
+    // println!("{:?}", vec);
+
+    // let slice = &vec[2..4];
+    // println!("{:?}", slice);
+
+    // // string datatypes..
+    // // String
+    // let name = String::from("Sumanth");
+    // let course = "Rust".to_string();
+    // let new_name = name.replace("Sumanth", "Sai");
+
+    // println!("{}", name);
+    // println!("{}", course);
+    // println!("{}", new_name);
+
+    // // // &str or string slices
+    // let str1 = "hello";
+    // let str2 = str1.to_string();
+    // let str3: &str= &str2;
+
+    // println!("{}", str1);
+    // println!("{}", str2);
+    // println!("{}", str3);
+
+    // // comparing strings..
+    // println!("{}", "ONE".to_lowercase() == "one");
+
+    // let a = String::from("hello");
+    // let b = "hello";
+    // println!("{}", a == b); // we can compare both type of strings too.. 
+
+    
+
+
+
+
 }
